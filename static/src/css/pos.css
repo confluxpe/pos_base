@@ -1,0 +1,80 @@
+.pos .rightpane {
+    left: 533px;
+}
+
+.pos .centerpane {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 440px;
+    right: 0;
+    vertical-align: top;
+    /*-webkit-transform: translate3d(0,0,0);*/
+    border-right: solid 3px #787878;
+    background: #e2e2e2;
+    max-width:90px;
+}
+
+.centerpane button {
+    /*width: 30%;
+    margin:0 3px;
+    color:#555555;
+    font-weight:bold;
+    height:32px;
+    font-size:12px;*/
+    height: 39px;
+    display: block!important;
+    width: 100%;
+    font-weight: bold;
+    vertical-align: middle;
+    color: #555555;
+    font-size: 14px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 0px;
+}
+
+.pos .listview-screen .window,
+.pos .listview-screen .full-content .subwindow{
+    display: block;
+}
+.pos .listview-screen .full-content .subwindow-container{
+    display: block;
+    height: 100%;
+}
+.pos .listview-screen .full-content .subwindow.collapsed,
+.pos .listview-screen .full-content .subwindow-container.collapsed{
+    height: auto;
+}
+
+.pos .listview-screen .invoice-list{
+    font-size: 16px;
+    width: 100%;
+    line-height: 40px;
+}
+.pos .listview-screen .invoice-list th,
+.pos .listview-screen .invoice-list td {
+    padding: 0px 8px;
+}
+.pos .listview-screen .invoice-list tr{
+    transition: all 150ms linear;
+    background: rgb(230,230,230);
+}
+.pos .listview-screen .invoice-list thead > tr,
+.pos .listview-screen .invoice-list tr:nth-child(even) {
+    background: rgb(247,247,247);
+}
+.pos .listview-screen .invoice-list tr.highlight{
+    transition: all 150ms linear;
+    background: rgb(110,200,155) !important;
+    color: white;
+}
+.pos .listview-screen .invoice-list tr.lowlight{
+    transition: all 150ms linear;
+    background: rgb(216, 238, 227);
+}
+.pos .listview-screen .invoice-list tr.lowlight:nth-child(even){
+    transition: all 150ms linear;
+    background: rgb(227, 246, 237);
+}
