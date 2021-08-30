@@ -7,7 +7,7 @@
 			<field name="inherit_id" ref="point_of_sale.pos_config_view_form"/>
 			<field name="arch" type="xml">
 				<xpath expr="//div[@id='accounting_section']" position="after">
-					<h2>Configuración Adicional de POS</h2>
+					<h2>POS Extra Configuration</h2>
 					<div id="pos_base" class="row mt16 o_settings_container">
 						<!--<field name="psms"/>-->
 					</div>
