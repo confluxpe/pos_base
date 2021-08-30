@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="pos_base" xml:space="preserve">
+	<t t-extend="ProductScreenWidget">
+		<t t-jquery=".leftpane" t-operation="after">
+			<div class="centerpane">
+				<div class="buttons">
+					<!--<button name="btnExample">Ejemplo</button>-->
+				</div>
+			</div>
+		</t>
+	</t>
+</templates>
