@@ -2,7 +2,7 @@
 <odoo>
 	<template id="assets" inherit_id="point_of_sale.assets">
 		<xpath expr="//link[@id='pos-stylesheet']" position="after">
-			<link rel="stylesheet" href="/pos_base/static/src/css/pos.css" />
+			<link rel="stylesheet" href="/pos_base_pe/static/src/css/pos.css" />
 		</xpath>
 	</template>
 </odoo>
