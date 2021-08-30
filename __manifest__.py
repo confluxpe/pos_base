@@ -18,4 +18,5 @@
     "installable": True,
     'application': False,
     'license': 'OPL-1',
+    'images': ['static/description/pos_base_image.jpg'],
 }
